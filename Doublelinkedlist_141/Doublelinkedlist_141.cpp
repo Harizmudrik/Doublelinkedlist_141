@@ -13,6 +13,8 @@ public:
 class DoubleLinkedList {
 Private:
     Node* START;
+Public:
+    DoubleLinkedList();
 
 };
 
