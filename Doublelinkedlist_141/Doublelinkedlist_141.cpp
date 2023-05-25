@@ -11,10 +11,15 @@ public:
 };
 
 class DoubleLinkedList {
-Private:
+private:
     Node* START;
-Public:
+public:
     DoubleLinkedList();
+    void addNode();
+    bool search(int rollNo, Node** previous, Node** current);
+    bool deleteNode(int rollNo);
+    bool listEmpty();
+    void traverse();
 
 };
 
