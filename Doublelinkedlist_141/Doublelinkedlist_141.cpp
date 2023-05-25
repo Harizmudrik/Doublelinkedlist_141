@@ -123,7 +123,7 @@ void DoubleLinkedList::traverse() {
 
 void DoubleLinkedList::revtraverse() {
     if (listEmpty()) {
-        cout << "\nList is Empty" << endl;
+        cout << "\nList is empty" << endl;
     }
 
     else {
@@ -139,7 +139,15 @@ void DoubleLinkedList::revtraverse() {
     }
 }
 
-void DoubleLinkedList::hapus()
+void DoubleLinkedList::hapus() {
+    if (listEmpty()) {
+        cout << "\nList is empty" << endl;
+
+    }
+    cout << "\nEnter the roll number of the student whose record is to be deleted: ";
+    int rollNo;
+
+}
 
 
 
